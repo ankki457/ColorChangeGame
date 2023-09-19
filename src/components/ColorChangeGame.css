@@ -1,0 +1,31 @@
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.color-box.red {
+  background-color: red;
+}
+
+.color-box.green {
+  background-color: green;
+}
+
+.game-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5722; /* Orange color for Game Over message */
+}
+
+.score {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
